@@ -5,7 +5,7 @@ import MainLayout from "./layouts/MainLayout";
 function App() {
   return (
     <MainLayout>
-      <h1>Hello Stephen</h1>
+      <h2>Hello Stephen</h2>
     </MainLayout>
   )
 }
