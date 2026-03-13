@@ -1,12 +1,18 @@
-import { useEffect, useState } from "react";
 import MainLayout from "./layouts/MainLayout";
+import Navbar from "./components/Navbar";
+import AppRoutes from "./routes/AppRoutes";
+import { BrowserRouter } from "react-router-dom";
+
 
 
 function App() {
   return (
+    <BrowserRouter>
     <MainLayout>
-      <h2>Hello Stephen</h2>
+      <Navbar />
+      <AppRoutes />
     </MainLayout>
+    </BrowserRouter>
   )
 }
 
