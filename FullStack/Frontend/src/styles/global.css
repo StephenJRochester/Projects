@@ -1,0 +1,11 @@
+/* global.css */
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #000000;
+}
+Link {
+    text-decoration: none;
+    color: #423535;
+    margin-right: 1em;
+}
