@@ -4,8 +4,26 @@ h1 {
     margin-bottom: 0.5em;
     color: #000000;
 }
-Link {
+.Link {
+    display: inline-block;
+    border: 1px solid #000000;
+    padding: 0.5em 1em;
+    border-radius: 5px;   
     text-decoration: none;
-    color: #423535;
+    font-size: 1.2em;
+    color: #000000;
     margin-right: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+.Link:hover {
+    background-color: #318686;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #18d6d6;
+    padding: 1em;
+    display: flex;
 }

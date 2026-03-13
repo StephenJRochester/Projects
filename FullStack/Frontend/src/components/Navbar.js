@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 function Navbar() {
     return (
         
-        <nav>
-            <Link to ="/">Home</Link>
-            <Link to ="/about">About</Link>
+        <nav className="navbar">
+            <Link to ="/" className="Link">Home</Link>
+            <Link to ="/about" className="Link">About</Link>
         </nav>
     );
 }
