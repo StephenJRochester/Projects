@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar">
         
             <Link to ="/" className="Link">Home</Link>
-            <Link to ="/calculator" className="Link">Calculator</Link>
+            <Link to ="/project" className="Link">Project</Link>
             <Link to ="/about" className="Link">About</Link>
         </nav>
     );

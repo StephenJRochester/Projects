@@ -11,5 +11,4 @@ class TimeEntry(models.Model):
     project = models.ForeignKey(Project, on_delete=models.CASCADE)
     user = models.CharField(max_length=100)
     date = models.DateField()
-    hours = models.FloatField()
-    
+    hours = models.FloatField

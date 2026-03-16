@@ -10,7 +10,7 @@
     display: inline-block;
     border: 1px solid #000000;
     padding: 0.5em 1em;
-    border-radius: 5px;   
+    border-radius: 6px;   
     text-decoration: none;
     font-size: 1.2em;
     color: #000000;
@@ -20,7 +20,7 @@
    
 }
 .Link:hover {
-    background-color: #37a7a7;
+    background-color: #3798a7;
     color: #ffffff;
 }
 .header {
