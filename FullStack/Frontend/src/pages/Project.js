@@ -1,9 +1,12 @@
-function  Project() {
+import React from "react";
+import ProjectDisplay from "../components/Projectdisplay";
+
+function Project() {
     return (
-        <div className="project">
+        <div>
             <h2>Project Page</h2>
-            <p>This is the project page.</p>
+            <ProjectDisplay />
         </div>
     );
-}   
+}
 export default Project

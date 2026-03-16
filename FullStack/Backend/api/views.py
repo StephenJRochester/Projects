@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from models import Project, TimeEntry
-from serializer import ProductSerializer, TimeEntrySerializer
+from .models import Project, TimeEntry
+from .serializer import ProductSerializer, TimeEntrySerializer
+from rest_framework import viewsets
 
 
 def hello(request):
@@ -16,4 +17,3 @@ class ProjectViewSet(viewsets.ModelViewSet):
 class TimeEntryViewSet(viewsets.ModelViewSet):
     queryset = TimeEntry.objects.all()
     serializer_class = TimeEntrySerializer
-    
