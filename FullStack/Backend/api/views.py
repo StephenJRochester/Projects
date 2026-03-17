@@ -5,10 +5,7 @@ from .serializer import ProductSerializer, TimeEntrySerializer
 from rest_framework import viewsets
 
 
-def hello(request):
-    return JsonResponse({"message": "Hello from Django"})
-def bye(request):
-    return JsonResponse({"message2": "Goodbye from Django"})
+
 # Create your views here.
 class ProjectViewSet(viewsets.ModelViewSet):
     queryset = Project.objects.all()
