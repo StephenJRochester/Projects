@@ -40,3 +40,20 @@
   gap: 10px;
  
 }
+/* ProjectTable.css */
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.project-table th, .project-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #f2f2f2;
+}
