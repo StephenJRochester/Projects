@@ -13,7 +13,7 @@ function  ProjectDisplay() {
     
   return (
     <div>
-      <h2>Project List</h2>
+      <h2>{UserCompany} Project List</h2>
       <table className="project-table">
         <thead>
           <tr>
@@ -23,6 +23,11 @@ function  ProjectDisplay() {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td><input type="text"></input></td>
+            <td><input></input></td>
+            <td><input></input></td>
+          </tr>
           {projects.map((project) => (
             <tr key={project.code}>
               <td>{project.code}</td>
@@ -30,6 +35,7 @@ function  ProjectDisplay() {
               <td>{project.description}</td>
             </tr>
           ))}
+          
         </tbody>
       </table>
     </div>
